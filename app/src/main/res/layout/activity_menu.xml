@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.syncx.app.Klear.MenuActivity"
+    android:background="@drawable/menubg">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/klear_menu" />
+
+    <Button
+        android:layout_marginLeft="20dp"
+        android:id="@+id/pickup"
+        android:layout_marginTop="250dp"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:background="#e91e63"
+        android:text="Pickup"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_marginRight="20dp"
+        android:id="@+id/classify"
+        android:layout_marginTop="250dp"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:background="#e91e63"
+        android:text="Classifier"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:layout_marginRight="20dp"
+        android:id="@+id/donate"
+        android:layout_marginTop="410dp"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:background="#e91e63"
+        android:text="Donate to Charity"
+        android:onClick="open"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:layout_marginLeft="20dp"
+        android:id="@+id/diy"
+        android:layout_marginTop="410dp"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:background="#e91e63"
+        android:text="DIYs"
+        android:textSize="22sp"
+        android:textColor="#fff" />
+
+</RelativeLayout>

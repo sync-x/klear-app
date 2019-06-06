@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.syncx.app.Klear.PickupActivity"
+    android:background="#f68c16">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pickuplogo"/>
+
+    <Spinner
+        android:popupBackground="#fff"
+        android:layout_marginTop="150dp"
+        android:id="@+id/spinner"
+        android:layout_width="500dp"
+        android:backgroundTint="#fff"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <TextView
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waste"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="210dp"/>
+
+    <TextView
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:gravity="center_horizontal"
+        android:text="Price/kg"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btProceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:textColor="@color/colorAccent"
+        android:textSize="26sp"
+        android:layout_marginBottom="3dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"/>
+</RelativeLayout>

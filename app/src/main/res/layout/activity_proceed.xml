@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.syncx.app.Klear.ProceedActivity"
+    android:background="#f68c16">
+
+    <Button
+        android:id="@+id/btDone"
+        android:layout_width="match_parent"
+        android:onClick="goToMenu"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textColor="@color/colorAccent"
+        android:textSize="26sp"
+        android:layout_marginBottom="3dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:id="@+id/tv_datetime"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/pickdate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="#fff"
+        android:textColor="#000"
+        android:layout_width="176dp"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:text="Schedule Pickup" />
+
+</RelativeLayout>

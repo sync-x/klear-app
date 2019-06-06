@@ -1,0 +1,7 @@
+#Fri Jun 07 00:57:52 IST 2019
+base.0=F\:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=F\:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes2.dex
+base.1=F\:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+file.0=F\:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex

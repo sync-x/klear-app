@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\CNN_waste_segreg\tensorflow-for-poets-2\android\tflite\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="F:\CNN_waste_segreg\tensorflow-for-poets-2\android\tflite\app\src\debug\jniLibs"/></dataSet></merger>
