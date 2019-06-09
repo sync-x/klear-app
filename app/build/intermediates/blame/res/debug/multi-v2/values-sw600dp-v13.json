@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\Klear\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\Neeti Aggrawal\\Documents\\Mihir\\Klear\\Klear\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5604d9be1e443a06b34c308d4014b4f2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Neeti Aggrawal\\.gradle\\caches\\transforms-2\\files-2.1\\dd0d0a6d0f0cd751549fcd8dd8ab7f37\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\cba58842590811a60a9e0993aa41d929\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Neeti Aggrawal\\Documents\\Mihir\\Klear\\Klear\\app\\src\\main\\res\\values-sw600dp\\template-styles.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "639",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "883"
+                    },
+                    "to": {
+                        "startLines": "26",
+                        "startColumns": "4",
+                        "startOffsets": "1544",
+                        "endLines": "30",
+                        "endColumns": "12",
+                        "endOffsets": "1784"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Neeti Aggrawal\\.gradle\\caches\\transforms-2\\files-2.1\\f933021c0913c2e81313d8bb0a34390b\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -24,152 +43,29 @@
                         "endOffsets": "110,180,251,323,381,439,548,612,675,847"
                     },
                     "to": {
-                        "startLines": "10,11,12,13,14,15,16,18,23,24",
+                        "startLines": "10,11,12,13,14,15,16,18,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "611,671,741,812,884,942,1000,1109,1447,1510",
-                        "endLines": "10,11,12,13,14,15,17,18,23,27",
+                        "startOffsets": "611,671,741,812,884,942,1000,1109,1309,1372",
+                        "endLines": "10,11,12,13,14,15,17,18,21,25",
                         "endColumns": "59,69,70,71,57,57,10,63,62,10",
-                        "endOffsets": "666,736,807,879,937,995,1104,1168,1505,1677"
+                        "endOffsets": "666,736,807,879,937,995,1104,1168,1367,1539"
                     }
                 },
                 {
-                    "source": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\Klear\\app\\src\\main\\res\\values-sw600dp\\template-styles.xml",
-                    "from": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "621",
-                        "endLines": "22",
-                        "endColumns": "12",
-                        "endOffsets": "861"
-                    },
-                    "to": {
-                        "startLines": "28",
-                        "startColumns": "4",
-                        "startOffsets": "1682",
-                        "endLines": "32",
-                        "endColumns": "12",
-                        "endOffsets": "1922"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\2896feca1835127faaf48dc68afa0ccd\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,124",
-                        "endColumns": "68,68",
-                        "endOffsets": "119,188"
-                    },
-                    "to": {
-                        "startLines": "20,21",
-                        "startColumns": "4,4",
-                        "startOffsets": "1241,1310",
-                        "endColumns": "68,68",
-                        "endOffsets": "1305,1374"
-                    }
-                },
-                {
-                    "source": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\Klear\\app\\src\\main\\res\\values-sw600dp\\template-dimens.xml",
+                    "source": "C:\\Users\\Neeti Aggrawal\\Documents\\Mihir\\Klear\\Klear\\app\\src\\main\\res\\values-sw600dp\\template-dimens.xml",
                     "from": {
                         "startLines": "20,21",
                         "startColumns": "4,4",
-                        "startOffsets": "656,724",
+                        "startOffsets": "676,745",
                         "endColumns": "67,67",
-                        "endOffsets": "719,787"
+                        "endOffsets": "739,808"
                     },
                     "to": {
-                        "startLines": "19,22",
+                        "startLines": "19,20",
                         "startColumns": "4,4",
-                        "startOffsets": "1173,1379",
+                        "startOffsets": "1173,1241",
                         "endColumns": "67,67",
-                        "endOffsets": "1236,1442"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\tflite\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-            "map": [
-                {
-                    "source": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\tflite\\app\\src\\main\\res\\values-sw600dp\\template-styles.xml",
-                    "from": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "621",
-                        "endLines": "22",
-                        "endColumns": "12",
-                        "endOffsets": "861"
-                    },
-                    "to": {
-                        "startLines": "28",
-                        "startColumns": "4",
-                        "startOffsets": "1682",
-                        "endLines": "32",
-                        "endColumns": "12",
-                        "endOffsets": "1922"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5604d9be1e443a06b34c308d4014b4f2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\cba58842590811a60a9e0993aa41d929\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,115,185,256,328,386,444,553,617,680",
-                        "endLines": "2,3,4,5,6,7,9,10,11,15",
-                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
-                        "endOffsets": "110,180,251,323,381,439,548,612,675,847"
-                    },
-                    "to": {
-                        "startLines": "10,11,12,13,14,15,16,18,23,24",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "611,671,741,812,884,942,1000,1109,1447,1510",
-                        "endLines": "10,11,12,13,14,15,17,18,23,27",
-                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
-                        "endOffsets": "666,736,807,879,937,995,1104,1168,1505,1677"
-                    }
-                },
-                {
-                    "source": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\tflite\\app\\src\\main\\res\\values-sw600dp\\template-dimens.xml",
-                    "from": {
-                        "startLines": "20,21",
-                        "startColumns": "4,4",
-                        "startOffsets": "656,724",
-                        "endColumns": "67,67",
-                        "endOffsets": "719,787"
-                    },
-                    "to": {
-                        "startLines": "19,22",
-                        "startColumns": "4,4",
-                        "startOffsets": "1173,1379",
-                        "endColumns": "67,67",
-                        "endOffsets": "1236,1442"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\2896feca1835127faaf48dc68afa0ccd\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,124",
-                        "endColumns": "68,68",
-                        "endOffsets": "119,188"
-                    },
-                    "to": {
-                        "startLines": "20,21",
-                        "startColumns": "4,4",
-                        "startOffsets": "1241,1310",
-                        "endColumns": "68,68",
-                        "endOffsets": "1305,1374"
+                        "endOffsets": "1236,1304"
                     }
                 }
             ]

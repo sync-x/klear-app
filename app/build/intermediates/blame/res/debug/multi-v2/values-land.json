@@ -1,54 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\Klear\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\Neeti Aggrawal\\Documents\\Mihir\\Klear\\Klear\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5604d9be1e443a06b34c308d4014b4f2\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\2896feca1835127faaf48dc68afa0ccd\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,130,208",
-                        "endColumns": "74,77,74",
-                        "endOffsets": "125,203,278"
-                    },
-                    "to": {
-                        "startLines": "11,12,13",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "774,849,927",
-                        "endColumns": "74,77,74",
-                        "endOffsets": "844,922,997"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\15d70f367212281a9a91e81ab1a382b3\\res\\values-land\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "0,0,0,0,0,0",
-                        "startOffsets": "183,264,344,414,483,578",
-                        "endColumns": "80,79,69,68,94,90",
-                        "endOffsets": "263,343,413,482,577,668"
-                    },
-                    "to": {
-                        "startLines": "5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "264,349,433,507,580,679",
-                        "endColumns": "84,83,73,72,98,94",
-                        "endOffsets": "344,428,502,575,674,769"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\cba58842590811a60a9e0993aa41d929\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Neeti Aggrawal\\.gradle\\caches\\transforms-2\\files-2.1\\f933021c0913c2e81313d8bb0a34390b\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -58,80 +14,22 @@
                         "endOffsets": "222"
                     },
                     "to": {
-                        "startLines": "14",
+                        "startLines": "5",
                         "startColumns": "4",
-                        "startOffsets": "1002",
-                        "endLines": "17",
+                        "startOffsets": "264",
+                        "endLines": "8",
                         "endColumns": "10",
-                        "endOffsets": "1169"
+                        "endOffsets": "431"
                     }
-                }
-            ]
-        },
-        {
-            "outputFile": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\tflite\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
-            "map": [
+                },
                 {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5604d9be1e443a06b34c308d4014b4f2\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Neeti Aggrawal\\.gradle\\caches\\transforms-2\\files-2.1\\dd0d0a6d0f0cd751549fcd8dd8ab7f37\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
                         "startOffsets": "55,125,196",
                         "endColumns": "69,70,67",
                         "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\2896feca1835127faaf48dc68afa0ccd\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,130,208",
-                        "endColumns": "74,77,74",
-                        "endOffsets": "125,203,278"
-                    },
-                    "to": {
-                        "startLines": "11,12,13",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "774,849,927",
-                        "endColumns": "74,77,74",
-                        "endOffsets": "844,922,997"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\15d70f367212281a9a91e81ab1a382b3\\res\\values-land\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "0,0,0,0,0,0",
-                        "startOffsets": "183,264,344,414,483,578",
-                        "endColumns": "80,79,69,68,94,90",
-                        "endOffsets": "263,343,413,482,577,668"
-                    },
-                    "to": {
-                        "startLines": "5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "264,349,433,507,580,679",
-                        "endColumns": "84,83,73,72,98,94",
-                        "endOffsets": "344,428,502,575,674,769"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\cba58842590811a60a9e0993aa41d929\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "10",
-                        "endOffsets": "222"
-                    },
-                    "to": {
-                        "startLines": "14",
-                        "startColumns": "4",
-                        "startOffsets": "1002",
-                        "endLines": "17",
-                        "endColumns": "10",
-                        "endOffsets": "1169"
                     }
                 }
             ]

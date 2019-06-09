@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "709594868980",
+    "firebase_url": "https://klear-c0c63.firebaseio.com",
+    "project_id": "klear-c0c63",
+    "storage_bucket": "klear-c0c63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709594868980:android:973a6151198be6d4",
+        "android_client_info": {
+          "package_name": "app.syncx.com.Klear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709594868980-hv1c7ebesaup1mf9j20nalke24gpdn58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.syncx.com.Klear",
+            "certificate_hash": "28da986a188754b8f16f4e7f68d25bb8d4c0d050"
+          }
+        },
+        {
+          "client_id": "709594868980-vfp1eo7imuhdmofhsu35qmoq02nseog5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu2_8CVyrmaoVPuB_K-vedPyDdttJ2H7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709594868980-vfp1eo7imuhdmofhsu35qmoq02nseog5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

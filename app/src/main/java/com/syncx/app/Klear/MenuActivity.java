@@ -7,17 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MenuActivity extends Activity {
     Button classify;
     Button diy;
     Button donate;
     Button pickup;
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+
+        mAuth=FirebaseAuth.getInstance();
 
         classify = (Button)findViewById(R.id.classify);
         classify.setOnClickListener(new OnClickListener() {
@@ -38,5 +45,12 @@ public class MenuActivity extends Activity {
         });
         pickup = (Button)findViewById(R.id.pickup);
         pickup.setOnClickListener(v -> startActivity(new Intent(MenuActivity.this,PickupActivity.class)));
+    }
+
+    public void logout(View view) {
+        mAuth.signOut();
+        Toast.makeText(this, "Logout successful", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(MenuActivity.this, LoginActivity.class));
+        finish();
     }
 }
