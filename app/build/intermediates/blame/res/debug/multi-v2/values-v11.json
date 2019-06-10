@@ -1,83 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\tflite\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Users\\Neeti Aggrawal\\Documents\\Mihir\\Klear\\Klear\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-12.0.1.aar\\d9e299ffb33a0640d916d49fcab6ac40\\res\\values-v11\\values.xml",
+                    "source": "C:\\Users\\Neeti Aggrawal\\Documents\\Mihir\\Klear\\Klear\\app\\src\\main\\res\\values-v11\\template-styles.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "172",
-                        "endLines": "5",
-                        "endColumns": "8",
-                        "endOffsets": "293"
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "669",
+                        "endColumns": "65",
+                        "endOffsets": "730"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "3",
-                        "endColumns": "8",
-                        "endOffsets": "176"
-                    }
-                },
-                {
-                    "source": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\tflite\\app\\src\\main\\res\\values-v11\\template-styles.xml",
-                    "from": {
-                        "startLines": "19",
-                        "startColumns": "4",
-                        "startOffsets": "650",
-                        "endColumns": "65",
-                        "endOffsets": "711"
-                    },
-                    "to": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "181",
                         "endColumns": "64",
-                        "endOffsets": "241"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\Klear\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\oorji\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-12.0.1.aar\\d9e299ffb33a0640d916d49fcab6ac40\\res\\values-v11\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "172",
-                        "endLines": "5",
-                        "endColumns": "8",
-                        "endOffsets": "293"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "3",
-                        "endColumns": "8",
-                        "endOffsets": "176"
-                    }
-                },
-                {
-                    "source": "F:\\CNN_waste_segreg\\tensorflow-for-poets-2\\android\\Klear\\app\\src\\main\\res\\values-v11\\template-styles.xml",
-                    "from": {
-                        "startLines": "19",
-                        "startColumns": "4",
-                        "startOffsets": "650",
-                        "endColumns": "65",
-                        "endOffsets": "711"
-                    },
-                    "to": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "181",
-                        "endColumns": "64",
-                        "endOffsets": "241"
+                        "endOffsets": "115"
                     }
                 }
             ]

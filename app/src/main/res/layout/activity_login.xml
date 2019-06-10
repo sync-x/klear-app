@@ -14,8 +14,8 @@
         android:layout_marginTop="250dp"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:hint="Name"
-        android:inputType="textPersonName" />
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -28,16 +28,30 @@
         android:inputType="textPassword" />
 
     <Button
+        android:id="@+id/btSignUp"
+        android:layout_width="130dp"
+        android:layout_height="62dp"
+        android:text="Sign Up"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="130dp"
+        android:background="#fff"
+        android:layout_centerHorizontal="true"
+        android:onClick="signUp"/>
+
+    <Button
         android:id="@+id/btLogin"
         android:layout_width="130dp"
         android:layout_height="62dp"
         android:text="Log In"
         android:textColor="#000"
         android:textSize="18sp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="480dp"
         android:layout_marginLeft="130dp"
         android:background="#fff"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:onClick="login"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -52,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="560dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
