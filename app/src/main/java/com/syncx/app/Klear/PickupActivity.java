@@ -21,11 +21,6 @@ public class PickupActivity extends Activity implements AdapterView.OnItemSelect
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pickup);
-        btProceed = (Button)findViewById(R.id.btProceed);
-        btProceed.setOnClickListener(v -> {
-            Intent intent = new Intent(PickupActivity.this,ProceedActivity.class);
-            startActivity(intent);
-        });
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
 
@@ -39,6 +34,10 @@ public class PickupActivity extends Activity implements AdapterView.OnItemSelect
 // Apply the adapter to the spinner
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
+    }
+
+    public void goToProceed(View view){
+        startActivity(new Intent(PickupActivity.this, ProceedActivity.class));
     }
 
     public void onItemSelected(AdapterView<?> parent, View view,

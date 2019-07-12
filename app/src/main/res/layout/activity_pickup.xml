@@ -43,6 +43,7 @@
 
     <Button
         android:id="@+id/btProceed"
+        android:onClick="goToProceed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Proceed"
