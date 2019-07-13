@@ -3,6 +3,7 @@ package com.syncx.app.Klear;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.AdapterView;
@@ -11,7 +12,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class PickupActivity extends Activity implements AdapterView.OnItemSelectedListener {
+public class PickupActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     double cost = 0;
     String already ="";
     Button btProceed;

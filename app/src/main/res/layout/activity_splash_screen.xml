@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.syncx.app.Klear.SplashScreen"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="K."
+        android:fontFamily="@font/productsans"
+        android:textColor="#fff"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"/>
+</RelativeLayout>
