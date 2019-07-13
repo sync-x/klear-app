@@ -1129,8 +1129,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id btDone
-id btProceed
 id buttonPanel
 id cancel_action
 id center
@@ -1153,6 +1151,7 @@ id coordinator
 id custom
 id customPanel
 id dark
+id dateTV
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1240,9 +1239,11 @@ id pickdate
 id pickupIV
 id pickupTV
 id pickup_card
+id pickuplogo
 id pin
 id progress_circular
 id progress_horizontal
+id prompt
 id radio
 id right
 id right_icon
@@ -1318,7 +1319,6 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
-id tv_datetime
 id uniform
 id unlabeled
 id up

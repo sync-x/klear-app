@@ -11,14 +11,31 @@
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/pickuplogo"/>
+        android:layout_marginTop="16dp"
+        android:src="@drawable/pickuplogo"
+        android:id="@+id/pickuplogo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prompt"
+        android:text="Add the waste you want to be picked up"
+        android:fontFamily="@font/productsans"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:layout_below="@id/pickuplogo"/>
 
     <Spinner
         android:popupBackground="#fff"
-        android:layout_marginTop="150dp"
         android:id="@+id/spinner"
-        android:layout_width="500dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
         android:backgroundTint="#fff"
+        android:layout_below="@id/prompt"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="204dp" />
@@ -28,28 +45,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Waste"
+        android:fontFamily="@font/productsans"
+        android:textColor="#fff"
         android:textSize="28sp"
         android:gravity="center_horizontal"
-        android:layout_marginTop="210dp"/>
+        android:layout_marginTop="225dp"/>
 
     <TextView
         android:id="@+id/etPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/productsans"
+        android:textColor="#fff"
         android:gravity="center_horizontal"
         android:text="Price/kg"
         android:textSize="28sp" />
 
-    <Button
-        android:id="@+id/btProceed"
+    <android.support.design.button.MaterialButton
         android:onClick="goToProceed"
         android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
         android:layout_height="wrap_content"
         android:text="Proceed"
-        android:textColor="@color/colorAccent"
-        android:textSize="26sp"
-        android:layout_marginBottom="3dp"
-        android:layout_alignParentBottom="true"
-        android:background="#fff"/>
+        android:fontFamily="@font/productsans"
+        android:textSize="24sp"/>
 </RelativeLayout>
