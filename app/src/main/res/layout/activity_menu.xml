@@ -181,10 +181,11 @@
         android:layout_alignParentBottom="true"
         android:onClick="logOutUser"
         android:layout_width="wrap_content"
-        android:textSize="25sp"
+        android:textSize="28sp"
         android:fontFamily="@font/productsans"
         android:layout_height="wrap_content"
         android:backgroundTint="#2A0845"
+        android:textAllCaps="false"
         android:layout_centerInParent="true"
         android:text="Log out"/>
 
