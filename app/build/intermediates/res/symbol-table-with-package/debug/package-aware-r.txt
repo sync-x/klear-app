@@ -1129,6 +1129,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btProceed
 id buttonPanel
 id cancel_action
 id center

@@ -40,29 +40,39 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="204dp" />
 
-    <TextView
-        android:id="@+id/etName"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Waste"
-        android:fontFamily="@font/productsans"
-        android:textColor="#fff"
-        android:textSize="28sp"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="225dp"/>
+        android:orientation="horizontal"
+        android:layout_below="@id/spinner"
+        android:layout_above="@id/btProceed"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
 
-    <TextView
-        android:id="@+id/etPrice"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
-        android:fontFamily="@font/productsans"
-        android:textColor="#fff"
-        android:gravity="center_horizontal"
-        android:text="Price/kg"
-        android:textSize="28sp" />
+        <TextView
+            android:id="@+id/etName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waste"
+            android:fontFamily="@font/productsans"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/etPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/productsans"
+            android:textColor="#fff"
+            android:text="Price/kg"
+            android:layout_marginStart="85dp"
+            android:textSize="28sp" />
+
+    </LinearLayout>
 
     <android.support.design.button.MaterialButton
+        android:id="@+id/btProceed"
         android:onClick="goToProceed"
         android:layout_width="match_parent"
         android:layout_alignParentBottom="true"
