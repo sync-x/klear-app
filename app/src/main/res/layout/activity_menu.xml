@@ -5,76 +5,187 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.syncx.app.Klear.MenuActivity"
-    android:background="@drawable/menubg">
+    android:background="@color/colorPrimary">
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="115dp"
-        android:layout_marginTop="25dp"
-        android:src="@drawable/klear_menu" />
-
-    <Button
-        android:layout_marginLeft="20dp"
-        android:id="@+id/pickup"
-        android:onClick="goToPickup"
-        android:layout_marginTop="250dp"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
-        android:background="#e91e63"
-        android:text="Pickup"
-        android:textSize="22sp"
-        android:textColor="#fff"
-        />
-    <Button
-        android:layout_marginRight="20dp"
-        android:id="@+id/classify"
-        android:onClick="goToClassify"
-        android:layout_marginTop="250dp"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
-        android:background="#e91e63"
-        android:text="Classifier"
-        android:textSize="22sp"
-        android:textColor="#fff"
-        android:layout_alignParentRight="true"
-        />
-    <Button
-        android:layout_marginRight="20dp"
-        android:id="@+id/donate"
-        android:layout_marginTop="410dp"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
-        android:background="#e91e63"
-        android:text="Donate to Charity"
-        android:onClick="goToDonate"
-        android:textSize="22sp"
-        android:textColor="#fff"
-        android:layout_alignParentRight="true"
-        />
-    <Button
-        android:layout_marginLeft="20dp"
-        android:id="@+id/diy"
-        android:onClick="goToDIY"
-        android:layout_marginTop="410dp"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
-        android:background="#e91e63"
-        android:text="DIYs"
-        android:textSize="22sp"
-        android:textColor="#fff" />
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/productsans"
+        android:textAlignment="center"
+        android:text="Klear."
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+        <android.support.design.card.MaterialCardView
+            android:onClick="goToClassify"
+            android:id="@+id/classifier_card"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:backgroundTint="#2A0845"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/classifierIV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/camera"
+                    android:layout_margin="60dp"/>
+
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/classifierTV"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/productsans"
+                    android:textStyle="normal"
+                    android:text="Classifier"/>
+            </RelativeLayout>
+        </android.support.design.card.MaterialCardView>
+
+        <android.support.design.card.MaterialCardView
+            android:onClick="goToPickup"
+            android:id="@+id/pickup_card"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/classifier_card"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="#2A0845">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pickupIV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="40dp"
+                    android:src="@drawable/pickup" />
+
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/pickupTV"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/productsans"
+                    android:textColor="#fff"
+                    android:textStyle="normal"
+                    android:text="Pickup"/>
+            </RelativeLayout>
+        </android.support.design.card.MaterialCardView>
+
+        <android.support.design.card.MaterialCardView
+            android:onClick="goToDIY"
+            android:id="@+id/diy_card"
+            android:layout_below="@id/classifier_card"
+            android:layout_marginTop="10dp"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="#2A0845">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/diyIV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/diy"
+                    android:layout_margin="60dp"/>
+
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/diyTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/productsans"
+                    android:textColor="#fff"
+                    android:textStyle="normal"
+                    android:text="DIY"/>
+
+            </RelativeLayout>
+        </android.support.design.card.MaterialCardView>
+
+        <android.support.design.card.MaterialCardView
+            android:onClick="goToDonate"
+            android:id="@+id/donate_card"
+            android:layout_below="@id/pickup_card"
+            android:layout_toEndOf="@id/diy_card"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="#2A0845">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/donateIV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/donate"
+                    android:layout_margin="60dp"/>
+
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/donateTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/productsans"
+                    android:textColor="#fff"
+                    android:textStyle="normal"
+                    android:text="Donate"/>
+
+            </RelativeLayout>
+        </android.support.design.card.MaterialCardView>
+
+    </RelativeLayout>
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/logout"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
         android:layout_alignParentBottom="true"
-        android:text="logout"
-        android:textSize="22sp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:textColor="#0F0F0F"
-        android:onClick="logout"
-        />
+        android:onClick="logOutUser"
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:fontFamily="@font/productsans"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A0845"
+        android:layout_centerInParent="true"
+        android:text="Log out"/>
 
 </RelativeLayout>

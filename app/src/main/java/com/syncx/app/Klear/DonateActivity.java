@@ -2,10 +2,11 @@ package com.syncx.app.Klear;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class DonateActivity extends Activity {
+public class DonateActivity extends AppCompatActivity {
     private WebView webView;
 
     @Override
