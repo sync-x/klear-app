@@ -17,20 +17,20 @@
         android:gravity="center"
         android:textSize="80sp"
         android:textStyle="bold"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="35dp"/>
 
     <RelativeLayout
         android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp">
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
 
         <android.support.design.card.MaterialCardView
             android:onClick="goToClassify"
             android:id="@+id/classifier_card"
-            android:layout_width="190dp"
-            android:layout_height="190dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
             android:backgroundTint="#2A0845"
             app:cardCornerRadius="10dp">
 
@@ -63,8 +63,8 @@
         <android.support.design.card.MaterialCardView
             android:onClick="goToPickup"
             android:id="@+id/pickup_card"
-            android:layout_width="190dp"
-            android:layout_height="190dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
             android:layout_marginStart="5dp"
             android:layout_toEndOf="@id/classifier_card"
             app:cardCornerRadius="10dp"
@@ -101,8 +101,8 @@
             android:id="@+id/diy_card"
             android:layout_below="@id/classifier_card"
             android:layout_marginTop="10dp"
-            android:layout_width="190dp"
-            android:layout_height="190dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
             app:cardCornerRadius="10dp"
             android:backgroundTint="#2A0845">
 
@@ -140,8 +140,8 @@
             android:layout_toEndOf="@id/diy_card"
             android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
-            android:layout_width="190dp"
-            android:layout_height="190dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
             app:cardCornerRadius="10dp"
             android:backgroundTint="#2A0845">
 
