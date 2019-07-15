@@ -12,19 +12,21 @@
         android:allowBackup="true"
         android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
-        android:theme="@style/MaterialTheme">
-        <activity android:name="com.syncx.app.Klear.DonateActivity"></activity>
-        <activity android:name="com.syncx.app.Klear.BlogActivity" />
-        <activity android:name="com.syncx.app.Klear.ProceedActivity" />
-        <activity android:name="com.syncx.app.Klear.PickupActivity" />
-        <activity android:name="com.syncx.app.Klear.MenuActivity" />
-        <activity android:name="com.syncx.app.Klear.LoginActivity" />
-        <activity android:name="com.syncx.app.Klear.CameraActivity" />
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignUpActivity"/>
+        <activity android:name=".DonateActivity" />
+        <activity android:name=".BlogActivity" />
+        <activity android:name=".ProceedActivity" />
+        <activity android:name=".PickupActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CameraActivity" />
         <activity
-            android:name="com.syncx.app.Klear.MainActivity"
+            android:name=".SplashScreen"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

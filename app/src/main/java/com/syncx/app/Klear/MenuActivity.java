@@ -1,23 +1,15 @@
 package com.syncx.app.Klear;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.Menu;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.Toast;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class MenuActivity extends Activity {
-    Button classify;
-    Button diy;
-    Button donate;
-    Button pickup;
+public class MenuActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
 
     @Override
@@ -42,7 +34,7 @@ public class MenuActivity extends Activity {
         startActivity(browserIntent);
     }
 
-    public void logout(View view) {
+    public void logOutUser(View view) {
         mAuth.signOut();
         Toast.makeText(this, "Logout successful", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(MenuActivity.this, LoginActivity.class));
