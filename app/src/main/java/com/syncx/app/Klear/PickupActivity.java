@@ -3,7 +3,9 @@ package com.syncx.app.Klear;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.AdapterView;
@@ -11,17 +13,40 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.FirebaseApiNotAvailableException;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class PickupActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     double cost = 0;
     String already ="";
     Button btProceed;
     int etSum;
+    String metal="";
+    String paper="";
+    String glass="";
+    String plastic="";
+    String rubber="";
+    String cardboard="";
+    String trash="";
+    String waste="";
+    private FirebaseAuth mAuth;
+    private static final String TAG = "PickupActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pickup);
+        mAuth = FirebaseAuth.getInstance();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
 
@@ -37,10 +62,6 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
         spinner.setOnItemSelectedListener(this);
     }
 
-    public void goToProceed(View view){
-        startActivity(new Intent(PickupActivity.this, ProceedActivity.class));
-    }
-
     public void onItemSelected(AdapterView<?> parent, View view,
                                int pos, long id) {
         String selected = parent.getItemAtPosition(pos).toString();
@@ -52,6 +73,7 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
             //
         }else{
             if(selected.equals("Metal")){
+                metal();
                 if(!already.contains("1")){
                     if(cost==0){
                         etName.setText("Metal");
@@ -64,7 +86,7 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
                     cost += 33;
                 }
             }else if(selected.equals("Paper")){
-
+                paper();
                 if(!(already.contains("2"))){if(cost==0){
                     etName.setText("Paper");
                     etPrice.setText("₹11/kg");
@@ -75,6 +97,7 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
                 }}
                 cost += 11;
             }else if(selected.equals("Glass")){
+                glass();
                 if(!(already.contains("3"))){
                     if(cost==0){
                         etName.setText("Glass");
@@ -86,6 +109,7 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
                     }}
                 cost += 7;
             }else if(selected.equals("Plastic")){
+                plastic();
                 if(!(already.contains("4"))){
                     if(cost==0){
                         etName.setText("Plastic");
@@ -97,6 +121,7 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
                     }}
                 cost += 28;
             }else if(selected.equals("Rubber")){
+                rubber();
                 if(!(already.contains("5"))){
                     if(cost==0){
                         etName.setText("Rubber");
@@ -108,6 +133,7 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
                     }}
                 cost += 6.5;
             }else if(selected.equals("Cardboard")){
+                cardboard();
                 if(!(already.contains("6"))){
                     if(cost==0){
                         etName.setText("Cardboard");
@@ -119,6 +145,7 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
                     }}
                 cost += 15;
             }else if(selected.equals("Trash")){
+                trash();
                 if(!(already.contains("7"))){
                     if(cost==0){
                         etName.setText("Trash");
@@ -131,8 +158,8 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
                 cost += 17.5;
             }
         }
+        // waste();
     }
-
     public void onNothingSelected(AdapterView<?> parent) {
         // Another interface callback
     }
@@ -140,5 +167,63 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 
+    }
+
+    private String metal(){
+        metal="Metal ";
+        return metal;
+    }
+    private String paper(){
+        paper="Paper ";
+        return paper;
+    }
+    private String glass(){
+        glass="Glass ";
+        return glass;
+    }
+    private String plastic(){
+        plastic="Plastic ";
+        return plastic;
+    }
+    private String rubber(){
+        rubber="Rubber ";
+        return rubber;
+    }
+    private String cardboard(){
+        cardboard="Cardboard ";
+        return cardboard;
+    }
+    private String trash(){
+        trash="Trash ";
+        return trash;
+    }
+    private String waste(){
+        waste = metal + paper + glass + plastic + rubber + cardboard + trash;
+        Log.d(TAG, "waste: " + metal + "end");
+        return waste;
+    }
+
+    public void goToProceed(View view) {
+        waste();
+        // startActivity(new Intent(PickupActivity.this, ProceedActivity.class));
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        Map<String, Object> orderDetails = new HashMap<>();
+        orderDetails.put("Order", waste);
+        FirebaseUser user = mAuth.getCurrentUser();
+        orderDetails.put("UID", user.getUid());
+        Log.d(TAG, "goToProceed: "+ metal + "end");
+        db.collection("Order Details").add(orderDetails)
+                .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+                    @Override
+                    public void onSuccess(DocumentReference documentReference) {
+                        Toast.makeText(PickupActivity.this, "Order saved", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(PickupActivity.this, ProceedActivity.class));
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Toast.makeText(PickupActivity.this, "Order not saved. Please try again", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
