@@ -56,4 +56,7 @@ dependencies {
 
     // tensorflow
     implementation 'org.tensorflow:tensorflow-lite:1.14.0'
+
+    // recyclerview
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
 }

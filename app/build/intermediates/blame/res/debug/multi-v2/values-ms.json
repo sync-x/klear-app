@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Klear\\Klear\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
+            "outputFile": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Neeti aggarwal\\.gradle\\caches\\transforms-2\\files-2.1\\d413b8a6103bc669b998f8820058e306\\res\\values-ms\\values.xml",

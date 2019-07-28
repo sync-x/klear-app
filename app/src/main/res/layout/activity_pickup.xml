@@ -75,6 +75,17 @@
     </LinearLayout>
 
     <android.support.design.button.MaterialButton
+        android:id="@+id/btHistory"
+        android:onClick="goToOrderHistory"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:text="Order History"
+        android:fontFamily="@font/productsans"
+        android:textSize="24sp"
+        android:layout_above="@id/btProceed"/>
+
+    <android.support.design.button.MaterialButton
         android:id="@+id/btProceed"
         android:onClick="goToProceed"
         android:layout_width="match_parent"

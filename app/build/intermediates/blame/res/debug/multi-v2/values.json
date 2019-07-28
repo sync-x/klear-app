@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Klear\\Klear\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Neeti aggarwal\\.gradle\\caches\\transforms-2\\files-2.1\\ff90d419377ecba238353f89e22a4f79\\res\\values\\values.xml",
@@ -78,41 +78,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Klear\\Klear\\app\\src\\main\\res\\values\\template-dimens.xml",
+                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\src\\main\\res\\values\\base-strings.xml",
                     "from": {
-                        "startLines": "12,8,7,6,5,4,13",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "367,284,239,193,149,106,438",
-                        "endColumns": "69,42,43,44,42,41,67",
-                        "endOffsets": "432,322,278,233,187,143,501"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "42",
+                        "endOffsets": "95"
                     },
                     "to": {
-                        "startLines": "420,424,425,426,427,428,504",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "25000,25293,25336,25380,25425,25468,30003",
-                        "endColumns": "69,42,43,44,42,41,67",
-                        "endOffsets": "25065,25331,25375,25420,25463,25505,30066"
+                        "startLines": "598",
+                        "startColumns": "4",
+                        "startOffsets": "35696",
+                        "endColumns": "42",
+                        "endOffsets": "35734"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Klear\\Klear\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,305,387,491,594,714,809",
-                        "endColumns": "143,105,81,103,102,119,94,71",
-                        "endOffsets": "194,300,382,486,589,709,804,876"
+                        "startLines": "5,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "156,59,107,203",
+                        "endColumns": "45,46,47,52",
+                        "endOffsets": "197,101,150,251"
                     },
                     "to": {
-                        "startLines": "622,626,627,628,629,630,631,640",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "38612,39110,39216,39298,39402,39505,39625,40795",
-                        "endColumns": "143,105,81,103,102,119,94,71",
-                        "endOffsets": "38751,39211,39293,39397,39500,39620,39715,40862"
+                        "startLines": "202,203,204,213",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "10257,10303,10350,11069",
+                        "endColumns": "45,46,47,52",
+                        "endOffsets": "10298,10345,10393,11117"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Klear\\Klear\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "9,5,3,2,4,8,7,6",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -131,6 +131,57 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "235",
+                        "startColumns": "4",
+                        "startOffsets": "12566",
+                        "endColumns": "56",
+                        "endOffsets": "12618"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,305,387,491,594,714,809",
+                        "endColumns": "143,105,81,103,102,119,94,71",
+                        "endOffsets": "194,300,382,486,589,709,804,876"
+                    },
+                    "to": {
+                        "startLines": "622,626,627,628,629,630,631,640",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "38612,39110,39216,39298,39402,39505,39625,40795",
+                        "endColumns": "143,105,81,103,102,119,94,71",
+                        "endOffsets": "38751,39211,39293,39397,39500,39620,39715,40862"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\src\\main\\res\\values\\template-dimens.xml",
+                    "from": {
+                        "startLines": "12,8,7,6,5,4,13",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "367,284,239,193,149,106,438",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "432,322,278,233,187,143,501"
+                    },
+                    "to": {
+                        "startLines": "420,424,425,426,427,428,504",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "25000,25293,25336,25380,25425,25468,30003",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "25065,25331,25375,25420,25463,25505,30066"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Neeti aggarwal\\.gradle\\caches\\transforms-2\\files-2.1\\c8367330d578bea7bb8baa8187e5e601\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -145,40 +196,6 @@
                         "startOffsets": "30424,30754,30893,30940,30995,31589,31643,31695,31744,31805",
                         "endColumns": "39,42,46,54,44,53,51,48,60,49",
                         "endOffsets": "30459,30792,30935,30990,31035,31638,31690,31739,31800,31850"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Klear\\Klear\\app\\src\\main\\res\\values\\base-strings.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "42",
-                        "endOffsets": "95"
-                    },
-                    "to": {
-                        "startLines": "598",
-                        "startColumns": "4",
-                        "startOffsets": "35696",
-                        "endColumns": "42",
-                        "endOffsets": "35734"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Klear\\Klear\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "5,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "156,59,107,203",
-                        "endColumns": "45,46,47,52",
-                        "endOffsets": "197,101,150,251"
-                    },
-                    "to": {
-                        "startLines": "202,203,204,213",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "10257,10303,10350,11069",
-                        "endColumns": "45,46,47,52",
-                        "endOffsets": "10298,10345,10393,11117"
                     }
                 },
                 {
@@ -239,7 +256,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Klear\\Klear\\app\\src\\main\\res\\values\\template-styles.xml",
+                    "source": "C:\\Users\\Neeti aggarwal\\.gradle\\caches\\transforms-2\\files-2.1\\d413b8a6103bc669b998f8820058e306\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "238,401",
+                        "endColumns": "63,166",
+                        "endOffsets": "301,567"
+                    },
+                    "to": {
+                        "startLines": "551,612",
+                        "startColumns": "4,4",
+                        "startOffsets": "32441,37319",
+                        "endColumns": "67,166",
+                        "endOffsets": "32504,37481"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\src\\main\\res\\values\\template-styles.xml",
                     "from": {
                         "startLines": "1,4,6,10,12,17",
                         "startColumns": "4,4,4,4,4,4",
@@ -255,23 +289,6 @@
                         "endLines": "656,2522,2588,2618,2992,2998",
                         "endColumns": "80,59,52,26,12,12",
                         "endOffsets": "42015,165104,169485,171790,196379,196657"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Neeti aggarwal\\.gradle\\caches\\transforms-2\\files-2.1\\d413b8a6103bc669b998f8820058e306\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "4,7",
-                        "startColumns": "0,0",
-                        "startOffsets": "238,401",
-                        "endColumns": "63,166",
-                        "endOffsets": "301,567"
-                    },
-                    "to": {
-                        "startLines": "551,612",
-                        "startColumns": "4,4",
-                        "startOffsets": "32441,37319",
-                        "endColumns": "67,166",
-                        "endOffsets": "32504,37481"
                     }
                 },
                 {
@@ -291,23 +308,6 @@
                         "endLines": "25,198,199,200,201,354,355,356,684,2073,2076,2079,3731",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "1065,10064,10126,10188,10252,20645,20702,20756,43880,134079,134205,134333,236777"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Klear\\Klear\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "235",
-                        "startColumns": "4",
-                        "startOffsets": "12566",
-                        "endColumns": "56",
-                        "endOffsets": "12618"
                     }
                 },
                 {

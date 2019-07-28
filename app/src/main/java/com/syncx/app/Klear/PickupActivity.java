@@ -205,25 +205,14 @@ public class PickupActivity extends AppCompatActivity implements AdapterView.OnI
 
     public void goToProceed(View view) {
         waste();
-        // startActivity(new Intent(PickupActivity.this, ProceedActivity.class));
-        FirebaseFirestore db = FirebaseFirestore.getInstance();
-        Map<String, Object> orderDetails = new HashMap<>();
-        orderDetails.put("Order", waste);
-        FirebaseUser user = mAuth.getCurrentUser();
-        orderDetails.put("UID", user.getUid());
-        Log.d(TAG, "goToProceed: "+ metal + "end");
-        db.collection("Order Details").add(orderDetails)
-                .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-                    @Override
-                    public void onSuccess(DocumentReference documentReference) {
-                        Toast.makeText(PickupActivity.this, "Order saved", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(PickupActivity.this, ProceedActivity.class));
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception e) {
-                Toast.makeText(PickupActivity.this, "Order not saved. Please try again", Toast.LENGTH_SHORT).show();
-            }
-        });
+        Intent intent = new Intent(PickupActivity.this, ProceedActivity.class);
+        intent.putExtra("waste_materials", waste);
+        String costStr = String.valueOf(cost);
+        intent.putExtra("cost_of_waste", costStr);
+        startActivity(intent);
+    }
+
+    public void goToOrderHistory(View view) {
+        startActivity(new Intent(PickupActivity.this, OrderHistoryActivity.class));
     }
 }
