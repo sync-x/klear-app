@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:background="#3379FF">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        android:text="Materials"
+        android:textSize="25dp"
+        android:textColor="#0F0F0F"
+        android:padding="15dp"
+        android:lines="1"
+        android:id="@+id/wasteText"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cost"
+        android:textSize="20dp"
+        android:layout_weight="25"
+        android:padding="15dp"
+        android:id="@+id/costText"
+        />
+</LinearLayout> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:background="#D3E4"
+    android:gravity="center_vertical">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#000"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="75"
+        android:id="@+id/wasteText"
+        android:textSize="30sp"
+        android:text="Waste"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:fontFamily="@font/productsans"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:id="@+id/costText"
+        android:textSize="20sp"
+        android:text="Cost"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:fontFamily="@font/productsans"
+        />
+
+</LinearLayout>

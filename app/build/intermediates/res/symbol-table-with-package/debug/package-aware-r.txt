@@ -1129,6 +1129,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btHistory
 id btProceed
 id buttonPanel
 id cancel_action
@@ -1149,6 +1150,7 @@ id content
 id contentPanel
 id control
 id coordinator
+id costText
 id custom
 id customPanel
 id dark
@@ -1228,6 +1230,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id orderHistoryRecyclerview
 id outline
 id packed
 id parallax
@@ -1303,7 +1306,11 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id text_cost
+id text_date
 id text_input_password_toggle
+id text_time
+id text_waste
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -1326,6 +1333,7 @@ id up
 id useLogo
 id view_offset_helper
 id visible
+id wasteText
 id webview
 id wide
 id withText
@@ -1384,10 +1392,12 @@ layout activity_camera
 layout activity_donate
 layout activity_login
 layout activity_menu
+layout activity_order_history
 layout activity_pickup
 layout activity_proceed
 layout activity_sign_up
 layout activity_splash_screen
+layout activity_view_history
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1403,6 +1413,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout fragment_camera2_basic
+layout layout_list_item
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
