@@ -1,10 +1,10 @@
-#Sun Jul 28 18:07:50 IST 2019
+#Fri Aug 02 20:06:17 IST 2019
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=C\:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
-base.1=C\:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
-base.0=C\:\\Users\\Neeti aggarwal\\Documents\\Mihir\\Android Projects\\Klear\\Klear\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.2=E\:\\Klear\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.1=E\:\\Klear\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.0=E\:\\Klear\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out

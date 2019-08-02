@@ -1,14 +1,12 @@
 package com.syncx.app.Klear;
 
-import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.FragmentActivity;
 import android.text.format.DateFormat;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -16,24 +14,30 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
-
+import com.google.android.gms.maps.model.LatLng;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ProceedActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener, TimePickerDialog.OnTimeSetListener{
+public class ProceedActivity extends FragmentActivity implements OnMapReadyCallback, DatePickerDialog.OnDateSetListener, TimePickerDialog.OnTimeSetListener{
     Button pickdate;
     int day, month, year, hours, minute;
     int dayFinal, monthFinal, yearFinal, hoursFinal, minuteFinal;
     String dateFinal, timeFinal;
     TextView timetv, datetv;
     String waste, cost;
+    GoogleMap map;
     private FirebaseAuth mAuth;
 
     @Override
@@ -50,6 +54,10 @@ public class ProceedActivity extends AppCompatActivity implements DatePickerDial
         if (getIntent().hasExtra("cost_of_waste")){
             cost = getIntent().getStringExtra("cost_of_waste");
         }
+
+        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
     }
 
     public void selectDate(View view){
@@ -112,5 +120,13 @@ public class ProceedActivity extends AppCompatActivity implements DatePickerDial
                 Toast.makeText(ProceedActivity.this, "Order not saved. Please try again", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        map = googleMap;
+        LatLng latLng = new LatLng(28.7043722,77.1378358);
+        map.addMarker(new MarkerOptions().position(latLng).title("Rukmini Devi Public School, Pitampura"));
+        map.moveCamera(CameraUpdateFactory.newLatLng(latLng));
     }
 }
