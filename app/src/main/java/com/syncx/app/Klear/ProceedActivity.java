@@ -125,8 +125,9 @@ public class ProceedActivity extends FragmentActivity implements OnMapReadyCallb
     @Override
     public void onMapReady(GoogleMap googleMap) {
         map = googleMap;
-        LatLng latLng = new LatLng(28.7043722,77.1378358);
-        map.addMarker(new MarkerOptions().position(latLng).title("Rukmini Devi Public School, Pitampura"));
-        map.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+        LatLng latLng = new LatLng(28.4337512,77.0611655);
+        float zoomLevel = (float) 16.0;
+        map.addMarker(new MarkerOptions().position(latLng).title("Amity International School, Sector 46"));
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, zoomLevel));
     }
 }
