@@ -32,7 +32,7 @@ public class ViewHistoryActivity extends AppCompatActivity {
 
     private void setNoteProperties() {
         wasteText.setText("Waste: " + mOrders.getWaste());
-        costText.setText("Cost: " + mOrders.getCost());
+        costText.setText("Cost: ₹" + mOrders.getCost());
         dateText.setText("Date: " + mOrders.getDate());
         timeText.setText("Time: "+ mOrders.getTime());
     }

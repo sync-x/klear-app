@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\oorji\.gradle\caches\transforms-2\files-2.1\e8aa8592f5d6c3cf6dcbfa6a1fd3e0e7\AndroidManifest.xml:2:1-21:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\oorji\.gradle\caches\transforms-2\files-2.1\7c1d066bc443fc93596ded35193da02a\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\oorji\.gradle\caches\transforms-2\files-2.1\b07ac2555e0325c3f6393015fc30a4fa\AndroidManifest.xml:17:1-22:12
@@ -50,22 +50,22 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\oorji\.gradle\
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\oorji\.gradle\caches\transforms-2\files-2.1\67ba9fd136fa7ca2aa63960659785bdc\AndroidManifest.xml:17:1-22:12
 MERGED from [org.tensorflow:tensorflow-lite:1.14.0] C:\Users\oorji\.gradle\caches\transforms-2\files-2.1\5ef9792cbcd4185d822c367077f3fda5\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] C:\Users\oorji\.gradle\caches\transforms-2\files-2.1\22aa91c32bdc3da4ee6bd0c8604acfc6\AndroidManifest.xml:2:1-11:12
-INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from E:\Klear\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Klear\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Klear\app\src\main\AndroidManifest.xml
-		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from E:\Klear\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\Klear\app\src\main\AndroidManifest.xml
-		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from E:\Klear\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:2:11-69
@@ -98,7 +98,7 @@ ADDED from E:\Klear\app\src\main\AndroidManifest.xml:12:5-69
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:12:19-67
 application
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:14:5-41:19
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:14:5-42:19
 MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\oorji\.gradle\caches\transforms-2\files-2.1\e8aa8592f5d6c3cf6dcbfa6a1fd3e0e7\AndroidManifest.xml:13:5-19:19
 MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\oorji\.gradle\caches\transforms-2\files-2.1\e8aa8592f5d6c3cf6dcbfa6a1fd3e0e7\AndroidManifest.xml:13:5-19:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\oorji\.gradle\caches\transforms-2\files-2.1\7c1d066bc443fc93596ded35193da02a\AndroidManifest.xml:22:5-20
@@ -142,61 +142,83 @@ ADDED from E:\Klear\app\src\main\AndroidManifest.xml:20:9-99
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:20:20-65
 activity#com.syncx.app.Klear.ViewHistoryActivity
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:22:9-66
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:22:9-103
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:22:55-91
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:22:19-54
 activity#com.syncx.app.Klear.OrderHistoryActivity
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:23:9-58
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:23:9-94
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:23:56-92
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:23:19-55
 activity#com.syncx.app.Klear.SignUpActivity
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:24:9-52
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:24:9-88
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:24:50-86
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:24:19-49
 activity#com.syncx.app.Klear.DonateActivity
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:25:9-52
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:25:9-89
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:25:50-86
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:25:19-49
 activity#com.syncx.app.Klear.BlogActivity
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:26:9-50
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:26:9-86
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:26:48-84
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:26:19-47
 activity#com.syncx.app.Klear.ProceedActivity
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:27:9-53
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:27:9-89
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:27:51-87
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:27:19-50
 activity#com.syncx.app.Klear.PickupActivity
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:28:9-52
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:28:9-88
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:28:50-86
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:28:19-49
 activity#com.syncx.app.Klear.MenuActivity
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:29:9-50
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:29:9-86
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:29:48-84
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:29:19-47
 activity#com.syncx.app.Klear.LoginActivity
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:30:9-51
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:30:9-87
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:30:49-85
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:30:19-48
 activity#com.syncx.app.Klear.CameraActivity
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:31:9-52
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:31:9-88
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:31:50-86
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:31:19-49
 activity#com.syncx.app.Klear.SplashScreen
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:32:9-40:20
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:32:9-41:20
+	android:screenOrientation
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:35:13-49
 	android:label
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:34:13-45
 	android:name
 		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:33:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Klear\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from E:\Klear\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from E:\Klear\app\src\main\AndroidManifest.xml:39:27-74
 uses-sdk
 INJECTED from E:\Klear\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Klear\app\src\main\AndroidManifest.xml

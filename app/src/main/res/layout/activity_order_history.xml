@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.syncx.app.Klear.OrderHistoryActivity"
-    android:orientation="vertical"
-    android:background="#f68c16"
-    android:id="@+id/orderHistoryRecyclerview">
+    android:background="#f68c16">
 
-</android.support.v7.widget.RecyclerView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Orders"
+        android:textColor="#fff"
+        android:fontFamily="@font/productsans"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:id="@+id/title"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/orderHistoryRecyclerview"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content"
+        android:text="New Order"
+        android:fontFamily="@font/productsans"
+        app:cornerRadius="10dp"
+        android:textSize="24sp"
+        android:padding="7dp"
+        android:id="@+id/neworder"
+        android:onClick="goToPickup"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
