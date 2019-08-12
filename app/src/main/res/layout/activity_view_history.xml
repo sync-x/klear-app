@@ -1,48 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.syncx.app.Klear.ViewHistoryActivity"
-    android:background="#f68c16"
-    android:orientation="vertical"
-    >
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:textColor="#0F0F0F"
-        android:id="@+id/text_waste"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/productsans"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:textColor="#0F0F0F"
-        android:id="@+id/text_cost"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/productsans"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:textColor="#0F0F0F"
-        android:id="@+id/text_date"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/productsans"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:textColor="#0F0F0F"
-        android:id="@+id/text_time"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/productsans"
-        />
+    android:background="#f68c16">
 
-</LinearLayout>
+    <android.support.design.card.MaterialCardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="15dp"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order Details"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/productsans"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#0F0F0F"
+                android:id="@+id/text_waste"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/productsans"
+                android:text="Waste"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#0F0F0F"
+                android:id="@+id/text_cost"
+                android:text="Cost"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/productsans"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#0F0F0F"
+                android:id="@+id/text_date"
+                android:text="Date"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/productsans"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#0F0F0F"
+                android:id="@+id/text_time"
+                android:text="Time"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/productsans"
+                />
+        </LinearLayout>
+
+    </android.support.design.card.MaterialCardView>
+
+
+
+
+</RelativeLayout>

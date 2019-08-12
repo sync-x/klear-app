@@ -3,6 +3,5 @@
 <resources>
     <color name="colorPrimary">#ef810f</color>
     <color name="colorPrimaryDark">#000</color>
-    <color name="colorAccent">#D81B60</color>
     <color name="control_background">#ef810f</color>
 </resources>

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -81,5 +82,9 @@ public class OrderHistoryActivity extends AppCompatActivity implements OrdersRec
         Intent intent = new Intent(this, ViewHistoryActivity.class);
         intent.putExtra("selected_order", mOrders.get(position));
         startActivity(intent);
+    }
+
+    public void goToPickup(View view){
+        startActivity(new Intent(OrderHistoryActivity.this, PickupActivity.class));
     }
 }

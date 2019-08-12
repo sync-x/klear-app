@@ -34,19 +34,40 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key" />
 
-        <activity android:name="com.syncx.app.Klear.ViewHistoryActivity" />
-        <activity android:name="com.syncx.app.Klear.OrderHistoryActivity" />
-        <activity android:name="com.syncx.app.Klear.SignUpActivity" />
-        <activity android:name="com.syncx.app.Klear.DonateActivity" />
-        <activity android:name="com.syncx.app.Klear.BlogActivity" />
-        <activity android:name="com.syncx.app.Klear.ProceedActivity" />
-        <activity android:name="com.syncx.app.Klear.PickupActivity" />
-        <activity android:name="com.syncx.app.Klear.MenuActivity" />
-        <activity android:name="com.syncx.app.Klear.LoginActivity" />
-        <activity android:name="com.syncx.app.Klear.CameraActivity" />
+        <activity
+            android:name="com.syncx.app.Klear.ViewHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.syncx.app.Klear.OrderHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.syncx.app.Klear.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.syncx.app.Klear.DonateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.syncx.app.Klear.BlogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.syncx.app.Klear.ProceedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.syncx.app.Klear.PickupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.syncx.app.Klear.MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.syncx.app.Klear.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.syncx.app.Klear.CameraActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.syncx.app.Klear.SplashScreen"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
