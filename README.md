@@ -21,7 +21,7 @@ Through our app, we encourage people to
 contribute to reducing the amount of waste by ensuring that a proper waste
 segregation system is followed.
 <br><br>
-In our app, we have inculcated a mathematical solution using <b>convolutional
+* In our app, we have inculcated a mathematical solution using <b>convolutional
 neural networks</b> (a machine learning interface) created by us that <b>lets users
 classify their waste</b> into different 7 different classes and further place a
 pickup order through our app. This makes it easier for the users to
@@ -31,10 +31,10 @@ saving the environment. For incentivizing our solution, the <b>users also earn
 Klear Credits in the form of digital money in proportion to the waste
 contributed which can be further used on e-commerce portals</b>.
 <br><br>
-For instance, if a user does not want to sell his ‘waste’, he can use the DIY
+* For instance, if a user does not want to sell his ‘waste’, he can use the DIY
 feature of our app. <b>The DIY feature gives out various step-by-step best out
 of waste suggestions</b> in reference to the waste the user has classified.
 <br><br>
-We also allow our users to donate the digital money earned by selling their
+* We also allow our users to donate the digital money earned by selling their
 waste through the Klear Donation Form. We have ties with local NGOs, blind schools, orphanages, and old-age homes that receive the digital money
 you donate through our app.
